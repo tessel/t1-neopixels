@@ -1,0 +1,17 @@
+{
+  "name": "neopixel",
+  "version": "0.0.1",
+  "description": "Library to run a strand of neopixels from Tessel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "neopixel",
+    "tessel",
+    "led",
+    "rgb"
+  ],
+  "author": "Jon McKay <jon@technical.io>",
+  "license": "MIT"
+}
