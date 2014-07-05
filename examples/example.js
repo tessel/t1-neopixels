@@ -1,10 +1,9 @@
-var Neopixel = require('../');
+var Neopixels = require('../');
 
-var neopixel = new Neopixel();
+var neopixels = new Neopixels();
 
-
-neopixel.on('end', function() {
-  neopixel.animate(100, Buffer.concat(tracer(100)));
+neopixels.on('end', function() {
+  neopixels.animate(100, Buffer.concat(tracer(100)));
 });
 
 function tracer(numLEDs) {
@@ -23,5 +22,5 @@ function tracer(numLEDs) {
   return arr;
 }
 
-neopixel.animate(100, Buffer.concat(tracer(100)));
+neopixels.animate(100, Buffer.concat(tracer(100)));
 
