@@ -1,5 +1,5 @@
 {
-  "name": "neopixel",
+  "name": "neopixels",
   "version": "0.0.1",
   "description": "Library to run a strand of neopixels from Tessel",
   "main": "index.js",
