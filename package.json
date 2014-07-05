@@ -1,6 +1,6 @@
 {
   "name": "neopixels",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Library to run a strand of neopixels from Tessel",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,6 @@
     "rgb"
   ],
   "author": "Jon McKay <jon@technical.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository" : "https://github.com/tessel/neopixels"
 }
