@@ -1,6 +1,6 @@
 #Neopixels
 
-[Neopixels](https://learn.adafruit.com/adafruit-neopixel-uberguide) are strands of individually addressable RGB LEDs made by Adafruit. They're fantastic for creating light shows, art installations, mood lighting, and a ton of other applications. 
+[Neopixels](https://learn.adafruit.com/adafruit-neopixel-uberguide) are strands of individually addressable RGB LEDs, made by Adafruit. Neopixels consist of individual [WS2812B](http://www.adafruit.com/datasheets/WS2812B.pdf) chips which are also sold by other vendors like [SeeedStudio](http://www.seeedstudio.com/depot/Digital-RGB-LED-FlexiStrip-60-LED-1-Meter-p-1666.html?cPath=81_79) They're fantastic for creating light shows, art installations, mood lighting, and a ton of other applications. 
 
 This library is rather sparse at the moment and most of the functionality lies within a driver written in the firmware. It assumes a single strand of LEDs connected to pin G4 on the GPIO bank and RGB leds with a 800kHz signal. 
 
