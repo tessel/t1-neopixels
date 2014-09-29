@@ -6,7 +6,7 @@ This library is rather sparse at the moment and most of the functionality lies w
 
 ##Installation
 
-First, make sure you have the custom Neopixel firmware loaded onto your Tessel. Eventually, we'll make a snazzy C addon interface but for now we have an entire firmware build that you can download [from our build server](https://s3.amazonaws.com/builds.tessel.io/custom/neopixel.bin). After downloading run `tessel update ./PATH_TO_BINARY` to flash it onto your Tessel
+Make sure you have firmware build `0.1.16` or later (```tessel board --version```) installed on Tessel. 
 
 Then, install this library:
 `npm install neopixels`
@@ -63,7 +63,7 @@ function tracer(numLEDs) {
 
 ##Contributions
 
-This library could use a ton of help! If you're going to help, you'll need to get your hands dirty with some C in our firmware. Check out the [Neopixel branch of firmware](https://github.com/tessel/firmware/tree/neopixel) and you'll need to be able to [compile your own firmware](https://github.com/tessel/firmware/tree/neopixel#compiling).
+This library could use a ton of help! If you're going to help, you'll need to get your hands dirty with some C in our firmware. Check out the [firmware](https://github.com/tessel/firmware/blob/master/src/addons/neopixel.c) and you'll need to be able to [compile your own firmware](https://github.com/tessel/firmware/tree/neopixel#compiling).
 
 Email me at jon@technical.io if you're interested.
 
