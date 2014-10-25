@@ -6,7 +6,7 @@ This library is rather sparse at the moment and most of the functionality lies w
 
 ##Installation
 
-Make sure you have firmware build `0.1.16` or later (```tessel board --version```) installed on Tessel. 
+Make sure you have firmware build `0.1.16` or later (```tessel --version board```) installed on Tessel. 
 
 Then, install this library:
 `npm install neopixels`
