@@ -5,10 +5,9 @@
 This library is rather sparse at the moment and most of the functionality lies within a driver written in the firmware. It assumes a single strand of LEDs connected to pin G4 on the GPIO bank and RGB leds with a 800kHz signal. 
 
 ##Installation
+If you are running firmware build `0.1.19` or later (```tessel --version board```), this library is already baked into the firmware. No need to install anything. 
 
-Make sure you have firmware build `0.1.16` or later (```tessel --version board```) installed on Tessel. 
-
-Then, install this library:
+If you have firmware build `0.1.16` or later (```tessel --version board```) installed on Tessel, then you should install this library with npm:
 `npm install neopixels`
 
 Then connect the circuit. You'll need a separate power source because these LEDs require **a lot** of juice. Check out [Adafruit's Powering Guide](https://learn.adafruit.com/adafruit-neopixel-uberguide/power) for the best advice. Best practice is to power the neopixels with 3.7V when using Tessel (since it is a 3.3V MCU) but 5V has worked fine in practice. Connect the data wire to G4 on Tessel's GPIO bank and connect GND on Tessel to both GND wires from the neopixels.
